@@ -1,5 +1,6 @@
 package com.alphonse.student.services.servicesImpl;
 
+import com.alphonse.student.dtos.StudentUpdateDTO;
 import com.alphonse.student.entities.Student;
 import com.alphonse.student.repositories.StudentRepository;
 import com.alphonse.student.services.StudentService;
@@ -42,13 +43,12 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public Student updateStudent(Integer id, Student student) {
-        Student existingStudent = findStudentById(id);
-existingStudent.setFirstname(student.getFirstname());
-existingStudent.setLastname(student.getLastname());
-existingStudent.setEmail(student.getEmail());
-existingStudent.setSchoolId(student.getSchoolId());
+    public Student updateStudent(Integer id, StudentUpdateDTO dto) {
+Student existingStudent = findStudentById(id);
+//        existingStudent.setFirstname(student.getFirstname());
+//        existingStudent.setLastname(student.getLastname());
+//        existingStudent.setEmail(student.getEmail());
+//        existingStudent.setSchoolId(student.getSchoolId());
         return studentRepository.save(existingStudent);
-
     }
 }

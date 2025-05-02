@@ -28,13 +28,15 @@ public class StudentController {
         return ResponseEntity.ok(studentService.listeStudent());
     }
 
-//    @GetMapping("/school/{school-id}")
-//
-//    public ResponseEntity<List<Student>> findAllStudents(
-//            @PathVariable("school-id") Integer schoolId
-//    ) {
-//        return ResponseEntity.ok(studentService.findAllStudentsBySchool(schoolId));
-//    }
+    @GetMapping("/school/{school-id}")
+
+    public ResponseEntity<List<Student>> findAllStudents(
+            @PathVariable("school-id") Integer schoolId
+    ) {
+        return ResponseEntity.ok(studentService.findAllStudentsBySchool
+
+                (schoolId));
+    }
 
 
 }

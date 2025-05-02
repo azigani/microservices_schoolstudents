@@ -1,4 +1,4 @@
-package com.alphonse.student.entities;
+package com.alphonse.school.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,11 +6,12 @@ import jakarta.persistence.Id;
 import lombok.*;
 
 @Entity
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Student {
+public class School {
 
     @Id
     @GeneratedValue
