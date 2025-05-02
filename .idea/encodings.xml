@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/apigateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student" charset="UTF-8" />
   </component>
 </project>
