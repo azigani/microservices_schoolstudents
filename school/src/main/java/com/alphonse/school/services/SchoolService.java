@@ -1,6 +1,7 @@
 package com.alphonse.school.services;
 
 
+import com.alphonse.school.dtos.FullSchoolResponse;
 import com.alphonse.school.entities.School;
 
 import java.util.List;
@@ -11,4 +12,6 @@ public interface SchoolService {
     School findSchoolById(Integer id);
     void deleteSchool(Integer id);
     School updateSchool(Integer id, School school);
+
+    FullSchoolResponse findSchoolsWithStudents(Integer schoolId);
 }

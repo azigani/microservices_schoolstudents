@@ -1,9 +1,10 @@
 package com.alphonse.school.services.servicesImpl;
 
 
+import com.alphonse.school.dtos.FullSchoolResponse;
 import com.alphonse.school.entities.School;
+import com.alphonse.school.repositories.SchoolRepository;
 import com.alphonse.school.services.SchoolService;
-import com.alphonse.student.repositories.SchoolRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +13,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class SchoolServiceImpl implements SchoolService {
 
-
+private final SchoolRepository schoolRepository;
     @Override
     public School saveSchool(School school) {
         return null;
@@ -35,6 +36,14 @@ public class SchoolServiceImpl implements SchoolService {
 
     @Override
     public School updateSchool(Integer id, School school) {
+        return null;
+    }
+
+    @Override
+    public FullSchoolResponse findSchoolsWithStudents(Integer schoolId) {
+
+        var school = schoolRepository.findById(schoolId);
+
         return null;
     }
 }

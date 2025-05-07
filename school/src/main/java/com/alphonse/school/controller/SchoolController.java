@@ -1,5 +1,6 @@
 package com.alphonse.student.controller;
 
+import com.alphonse.school.dtos.FullSchoolResponse;
 import com.alphonse.school.entities.School;
 import com.alphonse.school.services.SchoolService;
 import lombok.RequiredArgsConstructor;
@@ -28,5 +29,11 @@ public class SchoolController {
         return ResponseEntity.ok(schoolService.listeSchool());
     }
 
+    @GetMapping("/liste-etudiants-par-ecole/{school-id}")
+    public ResponseEntity<FullSchoolResponse> findAllSchools(
+            @PathVariable("school-id") Integer schoolId
+    ) {
 
+        return ResponseEntity.ok(schoolService.findSchoolsWithStudents(schoolId));
+    }
 }

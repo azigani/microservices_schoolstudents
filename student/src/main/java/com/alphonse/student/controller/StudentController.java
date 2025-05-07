@@ -29,10 +29,10 @@ public class StudentController {
     }
 
     @GetMapping("/school/{school-id}")
-
     public ResponseEntity<List<Student>> findAllStudents(
             @PathVariable("school-id") Integer schoolId
     ) {
+
         return ResponseEntity.ok(studentService.findAllStudentsBySchool
 
                 (schoolId));
