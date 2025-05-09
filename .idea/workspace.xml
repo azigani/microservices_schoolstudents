@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20faa86-f0cf-47f8-8673-06b76a6c9a8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/src/main/java/com/alphonse/school/dtos/FullSchoolResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/com/alphonse/school/dtos/FullSchoolResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school/src/main/java/com/alphonse/school/services/servicesImpl/SchoolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/com/alphonse/school/services/servicesImpl/SchoolServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/java/com/alphonse/student/services/servicesImpl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/java/com/alphonse/student/services/servicesImpl/StudentServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/apigateway/target/" />
     <ignored path="$PROJECT_DIR$/configserver/target/" />
@@ -153,13 +151,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/school/src/main/java/com/alphonse/school/SchoolApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding>
-                <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
               </folding>
             </state>
@@ -200,7 +197,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school/src/main/java/com/alphonse/school/dtos/FullSchoolResponse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -672,12 +669,12 @@
       <workItem from="1746184049508" duration="4603000" />
       <workItem from="1746188745552" duration="9058000" />
       <workItem from="1746269717412" duration="283000" />
-      <workItem from="1746296097520" duration="7563000" />
+      <workItem from="1746296097520" duration="8080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36558000" />
+    <option name="totallyTimeSpent" value="37075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,10 +687,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="687" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7235142" visible="true" weight="0.25910932" />
-      <window_info id="Structure" order="1" sideWeight="0.2764858" side_tool="true" visible="true" weight="0.25910932" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.72284645" visible="true" weight="0.25910932" />
+      <window_info id="Structure" order="1" sideWeight="0.27715355" side_tool="true" visible="true" weight="0.25910932" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -702,13 +698,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3027027" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54234236" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.51891893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.51891893" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.38558558" />
@@ -985,23 +981,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school/src/main/java/com/alphonse/school/SchoolApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/school/src/main/java/com/alphonse/school/dtos/FullSchoolResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/src/main/java/com/alphonse/school/SchoolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
