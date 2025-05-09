@@ -5,8 +5,6 @@ import jakarta.persistence.Entity;
 import lombok.*;
 
 import java.util.List;
-
-@Entity
 @Getter
 @Setter
 @AllArgsConstructor

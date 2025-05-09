@@ -51,4 +51,9 @@ Student existingStudent = findStudentById(id);
 //        existingStudent.setSchoolId(student.getSchoolId());
         return studentRepository.save(existingStudent);
     }
+
+    @Override
+    public List<Student> findAllStudentsBySchool(Integer schoolId) {
+        return null;
+    }
 }

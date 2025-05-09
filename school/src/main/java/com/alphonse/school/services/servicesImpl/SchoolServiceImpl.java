@@ -6,14 +6,15 @@ import com.alphonse.school.entities.School;
 import com.alphonse.school.repositories.SchoolRepository;
 import com.alphonse.school.services.SchoolService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class SchoolServiceImpl implements SchoolService {
-
-private final SchoolRepository schoolRepository;
+@Autowired
+private  SchoolRepository schoolRepository;
     @Override
     public School saveSchool(School school) {
         return null;
